@@ -1,6 +1,4 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-room_restart()
+/// @description Reproduz som de dano e reinicia som de fundo ao colidir
 
 // Toca o som de dano na colisão
 audio_play_sound(sdn_dano, 1, false);
