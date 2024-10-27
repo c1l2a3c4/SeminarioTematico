@@ -1,0 +1,1 @@
+SlideTransition(TRANS_MODE.NEXT);
