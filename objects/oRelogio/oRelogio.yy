@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SRelogio",
-    "path":"sprites/SRelogio/SRelogio.yy",
+    "name":"spr_relogio",
+    "path":"sprites/spr_relogio/spr_relogio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

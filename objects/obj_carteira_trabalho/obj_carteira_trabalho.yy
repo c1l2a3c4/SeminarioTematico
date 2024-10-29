@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oDiploma",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_aluno","path":"objects/obj_aluno/obj_aluno.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_carteira_trabalho",
+  "eventList":[],
   "managed":true,
-  "name":"oDiploma",
+  "name":"obj_carteira_trabalho",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_diploma",
-    "path":"sprites/spr_diploma/spr_diploma.yy",
+    "name":"spr_carteira_trabalho",
+    "path":"sprites/spr_carteira_trabalho/spr_carteira_trabalho.yy",
   },
   "spriteMaskId":null,
   "visible":true,

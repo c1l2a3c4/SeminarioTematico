@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_som_de_fundo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":59.115093,
+  "name":"snd_som_de_fundo",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_som_de_fundo.mp3",
+  "type":0,
+  "volume":1.0,
+}

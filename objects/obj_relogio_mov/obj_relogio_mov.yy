@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oDiploma",
+  "%Name":"obj_relogio_mov",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_aluno","path":"objects/obj_aluno/obj_aluno.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oDiploma",
+  "name":"obj_relogio_mov",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_diploma",
-    "path":"sprites/spr_diploma/spr_diploma.yy",
+    "name":"spr_relogio",
+    "path":"sprites/spr_relogio/spr_relogio.yy",
   },
   "spriteMaskId":null,
   "visible":true,
