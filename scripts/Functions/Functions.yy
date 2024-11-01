@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Functions",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Scripts_Background",
+    "path":"folders/Scripts_Background.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
