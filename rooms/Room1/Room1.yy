@@ -18,13 +18,13 @@
     {"name":"inst_468EAD38","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_34E2F764","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1835C237","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_22F99EA4","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3E0F16C9","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_22F99EA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22F99EA4","objectId":{"name":"obj_Porta_Fechada","path":"objects/obj_Porta_Fechada/obj_Porta_Fechada.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":895.0,"y":1850.0,},
-        {"$GMRInstance":"v1","%Name":"inst_256FB662","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_256FB662","objectId":{"name":"obj_aluno","path":"objects/obj_aluno/obj_aluno.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.98080194,"scaleY":1.1379468,"x":926.0,"y":1972.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3E0F16C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E0F16C9","objectId":{"name":"obj_Porta_Aberta_01","path":"objects/obj_Porta_Aberta_01/obj_Porta_Aberta_01.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":2116.0,},
+        {"$GMRInstance":"v1","%Name":"inst_256FB662","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_256FB662","objectId":{"name":"obj_aluno","path":"objects/obj_aluno/obj_aluno.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.95685023,"scaleY":1.1101576,"x":548.0,"y":1471.0,},
         {"$GMRInstance":"v1","%Name":"inst_4E1D4618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E1D4618","objectId":{"name":"oRelogio","path":"objects/oRelogio/oRelogio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.36050004,"scaleY":0.36050004,"x":1020.625,"y":1335.375,},
         {"$GMRInstance":"v1","%Name":"inst_468EAD38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_468EAD38","objectId":{"name":"oRelogio","path":"objects/oRelogio/oRelogio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.36050004,"scaleY":0.36050004,"x":1381.0,"y":1679.0,},
         {"$GMRInstance":"v1","%Name":"inst_5022498E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5022498E","objectId":{"name":"oDiploma","path":"objects/oDiploma/oDiploma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.22687498,"scaleY":0.22687498,"x":758.40625,"y":1611.9688,},
@@ -62,7 +62,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":360,"hspeed":-1,"hview":720,"inherit":false,"objectId":{"name":"obj_aluno","path":"objects/obj_aluno/obj_aluno.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":640,"wview":1280,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -74,7 +74,7 @@
   "viewSettings":{
     "clearDisplayBuffer":false,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,

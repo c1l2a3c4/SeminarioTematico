@@ -11,12 +11,12 @@ if (keyboard_check(vk_down)) {
 }
 
 if (keyboard_check(vk_left)) {
-    x -= 5 image_xscale=-0.38
+    x -= 5 image_xscale=-0.45
 	
 }
 
 if (keyboard_check(vk_right)) {
-    x += 5 image_xscale=0.38
+    x += 5 image_xscale=0.45
 }
 
 if keyboard_check(vk_anykey)

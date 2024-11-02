@@ -27,6 +27,7 @@
     {"name":"obj_namorada","order":9,"path":"objects/obj_namorada/obj_namorada.yy",},
     {"name":"obj_netflix","order":8,"path":"objects/obj_netflix/obj_netflix.yy",},
     {"name":"obj_notaboa","order":11,"path":"objects/obj_notaboa/obj_notaboa.yy",},
+    {"name":"obj_Persona_01","order":16,"path":"objects/obj_Persona_01/obj_Persona_01.yy",},
     {"name":"obj_Porta_Aberta_01","order":15,"path":"objects/obj_Porta_Aberta_01/obj_Porta_Aberta_01.yy",},
     {"name":"obj_Porta_Fechada","order":14,"path":"objects/obj_Porta_Fechada/obj_Porta_Fechada.yy",},
     {"name":"obj_professor","order":10,"path":"objects/obj_professor/obj_professor.yy",},
