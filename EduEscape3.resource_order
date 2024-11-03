@@ -46,9 +46,8 @@
     {"name":"Room1","order":3,"path":"rooms/Room1/Room1.yy",},
     {"name":"rOptions","order":3,"path":"rooms/rOptions/rOptions.yy",},
     {"name":"rSplash","order":4,"path":"rooms/rSplash/rSplash.yy",},
-    {"name":"snd_sdn_dano","order":2,"path":"sounds/snd_sdn_dano/snd_sdn_dano.yy",},
-    {"name":"snd_som_de_fundo","order":3,"path":"sounds/snd_som_de_fundo/snd_som_de_fundo.yy",},
-    {"name":"sound_coin","order":1,"path":"sounds/sound_coin/sound_coin.yy",},
+    {"name":"snd_sdn_dano","order":1,"path":"sounds/snd_sdn_dano/snd_sdn_dano.yy",},
+    {"name":"snd_som_de_fundo","order":2,"path":"sounds/snd_som_de_fundo/snd_som_de_fundo.yy",},
     {"name":"estrutura_sala_01","order":1,"path":"sprites/estrutura_sala_01/estrutura_sala_01.yy",},
     {"name":"Mesa_computador","order":11,"path":"sprites/Mesa_computador/Mesa_computador.yy",},
     {"name":"persona_01","order":12,"path":"sprites/persona_01/persona_01.yy",},
@@ -64,5 +63,6 @@
     {"name":"spr_professor","order":5,"path":"sprites/spr_professor/spr_professor.yy",},
     {"name":"spr_relogio","order":3,"path":"sprites/spr_relogio/spr_relogio.yy",},
     {"name":"spr_whats","order":8,"path":"sprites/spr_whats/spr_whats.yy",},
+    {"name":"Sprite17","order":6,"path":"sprites/Sprite17/Sprite17.yy",},
   ],
 }
