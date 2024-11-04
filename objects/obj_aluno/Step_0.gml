@@ -3,28 +3,36 @@
 
 // Movimentação do personagem
 if (keyboard_check(vk_up)) {
-    y -= 5;
+    if (!place_meeting(x, y - 5, obj_bloqueio)) { // Verifica colisão com obj_bloqueio
+        y -= 5;
+    }
 }
 
 if (keyboard_check(vk_down)) {
-    y += 5;
+    if (!place_meeting(x, y + 5, obj_bloqueio)) { // Verifica colisão com obj_bloqueio
+        y += 5;
+    }
 }
 
 if (keyboard_check(vk_left)) {
-    x -= 5 image_xscale=-0.45
-	
+    if (!place_meeting(x - 5, y, obj_bloqueio)) { // Verifica colisão com obj_bloqueio
+        x -= 5;
+        image_xscale = -0.45;
+    }
 }
 
 if (keyboard_check(vk_right)) {
-    x += 5 image_xscale=0.45
+    if (!place_meeting(x + 5, y, obj_bloqueio)) { // Verifica colisão com obj_bloqueio
+        x += 5;
+        image_xscale = 0.45;
+    }
 }
 
-if keyboard_check(vk_anykey)
-{
-	sprite_index=spr_aluno_mov
-}
-else {
-	sprite_index=spr_aluno
+// Altera a sprite dependendo da movimentação
+if keyboard_check(vk_anykey) {
+    sprite_index = spr_aluno_mov;
+} else {
+    sprite_index = spr_aluno;
 }
 
 // Impede que o personagem ultrapasse as margens da tela
@@ -40,5 +48,5 @@ if (y > _margem_inferior) y = _margem_inferior;
 
 // Verifica se o brinde é igual a 3 para passar de ambiente (fase)
 if (brinde == 3) {
-    room_goto_next(); // passar de ambiente (fase)
+    room_goto_next(); // Passar de ambiente (fase)
 }
