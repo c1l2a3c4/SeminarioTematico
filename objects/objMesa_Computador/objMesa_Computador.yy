@@ -9,10 +9,7 @@
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bloqueio",
-    "path":"objects/obj_bloqueio/obj_bloqueio.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

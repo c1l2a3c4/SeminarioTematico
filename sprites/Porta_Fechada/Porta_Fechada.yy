@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"Porta_Fechada",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":265,
   "bbox_left":0,
   "bbox_right":191,
-  "bbox_top":0,
+  "bbox_top":126,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
