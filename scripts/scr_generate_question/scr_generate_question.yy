@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_generate_question",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_generate_question",
+  "parent":{
+    "name":"Scripts_Background",
+    "path":"folders/Scripts_Background.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
