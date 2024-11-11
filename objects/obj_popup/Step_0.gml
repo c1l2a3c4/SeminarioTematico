@@ -1,9 +1,8 @@
-/// @description Atualizar animação do pop-up
+/// Evento Step - Animação da Escala do Pop-up
 if (show_popup) {
-    // Aumentar gradualmente a escala
     if (scale < 1) {
-        scale += scale_speed;
+        scale += scale_speed; // Ajuste a velocidade se necessário
     } else {
-        scale = 1; // Garantir que não passe de 1
+        scale = 1;
     }
 }
