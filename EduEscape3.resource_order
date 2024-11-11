@@ -79,6 +79,7 @@
     {"name":"spr_aluno_mov","order":6,"path":"sprites/spr_aluno_mov/spr_aluno_mov.yy",},
     {"name":"spr_borda_esquerda","order":7,"path":"sprites/spr_borda_esquerda/spr_borda_esquerda.yy",},
     {"name":"spr_carteira_trabalho","order":2,"path":"sprites/spr_carteira_trabalho/spr_carteira_trabalho.yy",},
+    {"name":"spr_diploma_quiz","order":19,"path":"sprites/spr_diploma_quiz/spr_diploma_quiz.yy",},
     {"name":"spr_diploma","order":1,"path":"sprites/spr_diploma/spr_diploma.yy",},
     {"name":"spr_insta","order":7,"path":"sprites/spr_insta/spr_insta.yy",},
     {"name":"spr_namorada","order":4,"path":"sprites/spr_namorada/spr_namorada.yy",},

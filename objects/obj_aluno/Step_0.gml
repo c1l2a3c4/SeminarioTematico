@@ -43,13 +43,13 @@ if (global.jogo_iniciado) {
 
     if ((move_left || keyboard_check(vk_left)) && !colisao_solida(-move_speed, 0)) {
         x -= move_speed;
-        image_xscale = -0.1885317;
+        image_xscale = -0.1285317;
         is_moving = true;
     }
 
     if ((move_right || keyboard_check(vk_right)) && !colisao_solida(move_speed, 0)) {
         x += move_speed;
-        image_xscale = 0.2085588;
+        image_xscale =0.1485588;
         is_moving = true;
     }
 

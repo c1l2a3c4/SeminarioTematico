@@ -107,6 +107,7 @@
     {"id":{"name":"spr_aluno","path":"sprites/spr_aluno/spr_aluno.yy",},},
     {"id":{"name":"spr_borda_esquerda","path":"sprites/spr_borda_esquerda/spr_borda_esquerda.yy",},},
     {"id":{"name":"spr_carteira_trabalho","path":"sprites/spr_carteira_trabalho/spr_carteira_trabalho.yy",},},
+    {"id":{"name":"spr_diploma_quiz","path":"sprites/spr_diploma_quiz/spr_diploma_quiz.yy",},},
     {"id":{"name":"spr_diploma","path":"sprites/spr_diploma/spr_diploma.yy",},},
     {"id":{"name":"spr_insta","path":"sprites/spr_insta/spr_insta.yy",},},
     {"id":{"name":"spr_namorada","path":"sprites/spr_namorada/spr_namorada.yy",},},

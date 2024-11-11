@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_diploma",
-    "path":"sprites/spr_diploma/spr_diploma.yy",
+    "name":"spr_diploma_quiz",
+    "path":"sprites/spr_diploma_quiz/spr_diploma_quiz.yy",
   },
   "spriteMaskId":null,
   "visible":true,
