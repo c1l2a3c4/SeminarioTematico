@@ -8,8 +8,8 @@
   "name":"obj_botao_next",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Pop-ups e Botões",
+    "path":"folders/Objetos/Pop-ups e Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Button_next",
-    "path":"sprites/Button_next/Button_next.yy",
+    "name":"spr_botao_next",
+    "path":"sprites/spr_botao_next/spr_botao_next.yy",
   },
   "spriteMaskId":null,
   "visible":true,

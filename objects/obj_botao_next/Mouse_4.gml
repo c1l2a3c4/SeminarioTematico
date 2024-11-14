@@ -1,6 +1,6 @@
 /// @description Iniciar o jogo ao clicar no botão "Next"
-if (instance_exists(obj_popup)) {
-    instance_destroy(obj_popup); // Destruir o pop-up
+if (instance_exists(obj_popup_01)) {
+    instance_destroy(obj_popup_01); // Destruir o pop-up
 }
 instance_destroy(); // Destruir o botão "Next"
 

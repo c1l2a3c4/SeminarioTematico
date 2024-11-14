@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_popup",
+  "%Name":"obj_popup_01",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_popup",
+  "name":"obj_popup_01",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Pop-ups e Botões",
+    "path":"folders/Objetos/Pop-ups e Botões.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PopUP",
-    "path":"sprites/PopUP/PopUP.yy",
+    "name":"spr_pop_up_01",
+    "path":"sprites/spr_pop_up_01/spr_pop_up_01.yy",
   },
   "spriteMaskId":null,
   "visible":true,
