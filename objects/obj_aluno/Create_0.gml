@@ -24,7 +24,4 @@ function colisao_solida(dx, dy) {
     return false;
 }
 
-// Tocar som de fundo se não estiver tocando
-if (!audio_is_playing(snd_som_de_fundo)) {
-    audio_play_sound(snd_som_de_fundo, 1, true); 
-}
+

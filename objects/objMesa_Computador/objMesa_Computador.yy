@@ -31,6 +31,9 @@
     "name":"Mesa_computador",
     "path":"sprites/Mesa_computador/Mesa_computador.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Mesa_computador",
+    "path":"sprites/Mesa_computador/Mesa_computador.yy",
+  },
   "visible":true,
 }

@@ -1,5 +1,5 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-audio_play_sound(sound_coin, 1, false);
+PlaySfx(sound_coin);
 
-room_goto(Room_quiz1);
+room_goto(regras_QUIZ);
