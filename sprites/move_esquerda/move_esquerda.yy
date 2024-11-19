@@ -2,24 +2,24 @@
   "$GMSprite":"",
   "%Name":"move_esquerda",
   "bboxMode":0,
-  "bbox_bottom":401,
-  "bbox_left":31,
-  "bbox_right":481,
-  "bbox_top":112,
+  "bbox_bottom":488,
+  "bbox_left":23,
+  "bbox_right":488,
+  "bbox_top":23,
   "collisionKind":2,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b3da24fa-7cab-4909-ae4a-301cb2e4ef61","name":"b3da24fa-7cab-4909-ae4a-301cb2e4ef61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"916fcc5a-ebc3-4a43-8bc3-fbdcfd6350eb","name":"916fcc5a-ebc3-4a43-8bc3-fbdcfd6350eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"19093583-4ba2-4d0e-9082-fce5d9dbd04d","blendMode":0,"displayName":"default","isLocked":false,"name":"19093583-4ba2-4d0e-9082-fce5d9dbd04d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5f4b61c2-beb5-4596-bd95-840f662bdd49","blendMode":0,"displayName":"default","isLocked":false,"name":"5f4b61c2-beb5-4596-bd95-840f662bdd49","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"move_esquerda",
   "nineSlice":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3da24fa-7cab-4909-ae4a-301cb2e4ef61","path":"sprites/move_esquerda/move_esquerda.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"de17dadc-ac36-4b95-b7b5-1a2e39c2dbc8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"916fcc5a-ebc3-4a43-8bc3-fbdcfd6350eb","path":"sprites/move_esquerda/move_esquerda.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ac2eb875-c369-43aa-810a-94d319a3b3fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
