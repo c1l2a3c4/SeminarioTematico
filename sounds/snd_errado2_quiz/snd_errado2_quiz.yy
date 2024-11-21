@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.906937,
+  "duration":1.296,
   "name":"snd_errado2_quiz",
   "parent":{
     "name":"Sons",

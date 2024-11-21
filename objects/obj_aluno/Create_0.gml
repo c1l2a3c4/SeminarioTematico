@@ -1,5 +1,5 @@
 /// @description Código de inicialização
-
+global.vidas = 3; // Inicializa as vidas com 3 no início do jogo
 
 /// @description Inicializar variáveis
 move_speed = 5; // Velocidade de movimento do personagem

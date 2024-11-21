@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_relogio_mov",
+  "%Name":"obj_joystick_filho",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_relogio_mov",
+  "name":"obj_joystick_filho",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"move",
+    "path":"folders/Objetos/move.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_relogio",
-    "path":"sprites/spr_relogio/spr_relogio.yy",
+    "name":"spr_joystick_filho",
+    "path":"sprites/spr_joystick_filho/spr_joystick_filho.yy",
   },
   "spriteMaskId":null,
   "visible":true,

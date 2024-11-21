@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.339594,
+  "duration":1.128,
   "name":"snd_sdn_dano",
   "parent":{
     "name":"Sons",

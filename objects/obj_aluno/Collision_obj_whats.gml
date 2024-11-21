@@ -1,14 +1,27 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-room_restart()
+// Cálculo do vetor de recuo baseado na posição do objeto colidido
+var dx = x - other.x; // Diferença horizontal
+var dy = y - other.y; // Diferença vertical
+var dist = point_distance(x, y, other.x, other.y); // Distância entre os objetos
 
-// Toca o som de dano na colisão
-audio_play_sound(snd_sdn_dano, 1, false);
-
-// Verifica se o som de fundo já está tocando
-if (audio_is_playing(snd_som_de_fundo)) {
-    audio_stop_sound(snd_som_de_fundo); 
+// Normaliza o vetor para evitar recuos muito grandes
+if (dist > 0) {
+    dx /= dist;
+    dy /= dist;
 }
 
-// Reinicia o som de fundo
-audio_play_sound(snd_som_de_fundo, 1, true); 
+// Define a força do recuo
+var knockback_force = 60; // Ajuste o valor para controlar a intensidade
+
+// Aplica o recuo ao jogador
+x += dx * knockback_force;
+y += dy * knockback_force;
+
+// (Opcional) Reduz uma vida e verifica reinício
+global.vidas -= 1;
+
+if (global.vidas <= 0) {
+    game_restart(); // Reinicia o jogo se as vidas acabarem
+} else {
+    // Toca o som e destrói o objeto colidido
+    audio_play_sound(snd_sdn_dano, 1, false);
+}
