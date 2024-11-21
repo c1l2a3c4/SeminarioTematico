@@ -1,5 +1,5 @@
 // Tamanho da escala dos corações (ajustado para 0.2)
-var escala = 0.2;
+var escala = 0.5;
 // Espaçamento entre os corações (ajustado para 60)
 var espacamento = 60;
 
