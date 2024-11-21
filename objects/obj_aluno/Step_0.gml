@@ -67,3 +67,12 @@ if (x < _margem_esquerda) x = _margem_esquerda;
 if (x > _margem_direita) x = _margem_direita;
 if (y < _margem_superior) y = _margem_superior;
 if (y > _margem_inferior) y = _margem_inferior;
+
+    // Verifica se o brinde é igual a 3 para passar de ambiente (fase)
+if (brinde == 3 && !instance_exists(obj_diploma_quiz)) {
+var pos_x = room_width / 2;
+var pos_y = room_height / 2;
+var diploma = instance_create_layer(pos_x, pos_y, "Instances", obj_diploma_quiz);
+diploma.image_xscale = 0.3; // Reduz a largura pela metade
+diploma.image_yscale = 0.3; // Reduz a altura pela metade
+}

@@ -25,3 +25,11 @@ function colisao_solida(dx, dy) {
 }
 
 
+    // Verifica se o brinde é igual a 3 para passar de ambiente (fase)
+	if (brinde == 3 && !instance_exists(obj_diploma_quiz)) {
+    var pos_x = room_width / 2;
+    var pos_y = room_height / 2;
+    var diploma = instance_create_layer(pos_x, pos_y, "Instances", obj_diploma_quiz);
+    diploma.image_xscale = 0.3; // Reduz a largura pela metade
+    diploma.image_yscale = 0.3; // Reduz a altura pela metade
+}

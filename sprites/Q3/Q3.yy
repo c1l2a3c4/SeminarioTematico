@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Q3",
   "bboxMode":0,
-  "bbox_bottom":9160,
-  "bbox_left":0,
-  "bbox_right":11029,
+  "bbox_bottom":950,
+  "bbox_left":59,
+  "bbox_right":1299,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":9628,
+  "height":1000,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"422aa6b6-482b-4e78-a402-6f1b6373d674","blendMode":0,"displayName":"default","isLocked":false,"name":"422aa6b6-482b-4e78-a402-6f1b6373d674","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":11033,
+  "width":1300,
 }
