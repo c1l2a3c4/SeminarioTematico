@@ -46,13 +46,13 @@ if (global.jogo_iniciado) {
     // Define a direção do sprite mantendo o tamanho constante
     if (move_x < 0) {
         // Vira o sprite para a esquerda
-        if (image_xscale > 0) {
-            image_xscale = -1;
+        if (image_xscale > -0.1285317) {
+            image_xscale = -0.1485588;
         }
     } else if (move_x > 0) {
         // Vira o sprite para a direita
-        if (image_xscale < 0) {
-            image_xscale = 1;
+        if (image_xscale < 0.1285317) {
+            image_xscale = 0.1485588;
         }
     }
 }

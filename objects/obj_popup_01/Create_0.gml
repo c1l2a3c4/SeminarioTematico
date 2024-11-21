@@ -6,8 +6,8 @@ scale = 0;
 scale_speed = 0.05; // Ajuste a velocidade de transição conforme necessário
 
 // Posição centralizada do pop-up, ajustada para mais abaixo na tela
-x = room_width / 2;
-y = (room_height / 2) + 100; // Ajuste vertical para descer o pop-up (aumente/decrsça este valor conforme necessário)
+x = 680 ;
+y = 440; // Ajuste vertical para descer o pop-up (aumente/decrsça este valor conforme necessário)
 
 // Tamanho alvo (ajuste conforme necessário)
 target_width = 640; // Metade do tamanho original

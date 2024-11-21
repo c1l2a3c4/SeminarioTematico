@@ -5,8 +5,8 @@ function SetFullScreen(fullScreen) {
 	//Dependendo da opção selecionada eu seto como full screen e reinicio as variáveis
 	window_set_fullscreen(fullScreen);
 
-	screenWidth = display_get_gui_width();
-	screenHeight = display_get_gui_height();
+	screenWidth = 1280;//display_get_gui_width();
+	screenHeight = 720; //display_get_gui_height();
 
 	///set window size
 	window_set_size(screenWidth, screenHeight);
