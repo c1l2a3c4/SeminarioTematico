@@ -1,22 +1,12 @@
-// Cálculo do vetor de recuo baseado na posição do objeto colidido
-var dx = x - other.x; // Diferença horizontal
-var dy = y - other.y; // Diferença vertical
-var dist = point_distance(x, y, other.x, other.y); // Distância entre os objetos
+// Define a posição fixa para onde o objeto será enviado
+var fixed_x = 628; // Coordenada X
+var fixed_y = 468; // Coordenada Y
 
-// Normaliza o vetor para evitar recuos muito grandes
-if (dist > 0) {
-    dx /= dist;
-    dy /= dist;
-}
+// Atualiza a posição do objeto para a posição fixa
+x = fixed_x;
+y = fixed_y;
 
-// Define a força do recuo
-var knockback_force = 60; // Ajuste o valor para controlar a intensidade
-
-// Aplica o recuo ao jogador
-x += dx * knockback_force;
-y += dy * knockback_force;
-
-// (Opcional) Reduz uma vida e verifica reinício
+// Reduz uma vida e verifica reinício
 global.vidas -= 1;
 
 if (global.vidas <= 0) {

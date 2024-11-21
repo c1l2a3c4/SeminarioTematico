@@ -2,7 +2,7 @@
 global.vidas = 3; // Inicializa as vidas com 3 no início do jogo
 
 /// @description Inicializar variáveis
-move_speed = 5; // Velocidade de movimento do personagem
+move_speed = 3.9; // Velocidade de movimento do personagem
 move_up = false;
 move_down = false;
 move_left = false;
@@ -12,7 +12,7 @@ brinde = 0;
 
 
 // Inicializar a lista de objetos sólidos
-objetos_solidos = [objMesa_Computador, obj_parede_superior];
+objetos_solidos = [objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda];
 
 // Função auxiliar para verificar colisão com qualquer objeto sólido na lista
 function colisao_solida(dx, dy) {
