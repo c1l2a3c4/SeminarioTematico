@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oRelogio",
+  "%Name":"obj_relogio02",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oRelogio",
+  "name":"obj_relogio02",
   "overriddenProperties":[],
   "parent":{
     "name":"fase 01",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_relogio",
-    "path":"sprites/spr_relogio/spr_relogio.yy",
+    "name":"spr_relogio02",
+    "path":"sprites/spr_relogio02/spr_relogio02.yy",
   },
   "spriteMaskId":null,
   "visible":true,

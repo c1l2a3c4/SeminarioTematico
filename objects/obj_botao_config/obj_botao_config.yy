@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oRelogio",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_botao_config",
+  "eventList":[],
   "managed":true,
-  "name":"oRelogio",
+  "name":"obj_botao_config",
   "overriddenProperties":[],
   "parent":{
-    "name":"fase 01",
-    "path":"folders/Objetos/Obstáculos/fase 01.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_relogio",
-    "path":"sprites/spr_relogio/spr_relogio.yy",
+    "name":"spr_botao_config",
+    "path":"sprites/spr_botao_config/spr_botao_config.yy",
   },
   "spriteMaskId":null,
   "visible":true,

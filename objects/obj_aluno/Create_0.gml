@@ -12,7 +12,7 @@ brinde = 0;
 
 
 // Inicializar a lista de objetos sólidos
-objetos_solidos = [objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda];
+objetos_solidos = [objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda, obj_borda_direita, obj_borda_esquerda];
 
 // Função auxiliar para verificar colisão com qualquer objeto sólido na lista
 function colisao_solida(dx, dy) {
@@ -33,3 +33,4 @@ function colisao_solida(dx, dy) {
     diploma.image_xscale = 0.3; // Reduz a largura pela metade
     diploma.image_yscale = 0.3; // Reduz a altura pela metade
 }
+

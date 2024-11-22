@@ -1,0 +1,25 @@
+{
+  "$GMPath":"",
+  "%Name":"path_relogio02",
+  "closed":false,
+  "kind":0,
+  "name":"path_relogio02",
+  "parent":{
+    "name":"Caminhos",
+    "path":"folders/Caminhos.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":362.8125,"y":414.6875,},
+    {"speed":100.0,"x":594.8125,"y":414.6875,},
+    {"speed":100.0,"x":595.02075,"y":309.89746,},
+    {"speed":100.0,"x":900.1283,"y":310.74692,},
+    {"speed":100.0,"x":902.05304,"y":415.048,},
+    {"speed":100.0,"x":677.63367,"y":414.52112,},
+    {"speed":100.0,"x":677.40784,"y":310.76843,},
+    {"speed":100.0,"x":364.6444,"y":309.37057,},
+    {"speed":100.0,"x":362.16055,"y":414.88672,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
