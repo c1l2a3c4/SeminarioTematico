@@ -76,3 +76,11 @@ var diploma = instance_create_layer(pos_x, pos_y, "Instances", obj_diploma_quiz)
 diploma.image_xscale = 0.3; // Reduz a largura pela metade
 diploma.image_yscale = 0.3; // Reduz a altura pela metade
 }
+
+if (global.estado_jogo != "jogando") {
+       // Impedir movimentos (congelar posição)
+	move_speed = 0;
+    // Ignorar qualquer lógica de movimento
+}
+
+// Código de movimento do jogador

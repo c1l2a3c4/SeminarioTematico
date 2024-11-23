@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_relogio02",
+  "%Name":"obj_controle_jogo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_relogio02",
+  "name":"obj_controle_jogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"fase 01",
-    "path":"folders/Objetos/Obstáculos/fase 01.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_relogio02",
-    "path":"sprites/spr_relogio02/spr_relogio02.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
