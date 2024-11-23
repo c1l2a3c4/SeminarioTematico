@@ -2,8 +2,8 @@
 // Você pode escrever seu código neste editor
 
 sprite_index = imagem_questao_1
-image_xscale = 0.1
-image_yscale = 0.1
+image_xscale = 1
+image_yscale = 1
 
 botao_proximo = instance_create_layer(x, y + 160, "Instances_2", obj_quiz_proximo)
 botao_proximo.gerenciador_quiz = id
