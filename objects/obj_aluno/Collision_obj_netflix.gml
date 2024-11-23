@@ -1,4 +1,5 @@
 // Define a posição fixa para onde o objeto será enviado
+// Define a posição fixa para onde o objeto será enviado
 var fixed_x = 628; // Coordenada X
 var fixed_y = 468; // Coordenada Y
 

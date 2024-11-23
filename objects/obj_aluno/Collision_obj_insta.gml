@@ -1,14 +1,18 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-room_restart()
+// Define a posição fixa para onde o objeto será enviado
+// Define a posição fixa para onde o objeto será enviado
+var fixed_x = 628; // Coordenada X
+var fixed_y = 468; // Coordenada Y
 
-// Toca o som de dano na colisão
-audio_play_sound(snd_sdn_dano, 1, false);
+// Atualiza a posição do objeto para a posição fixa
+x = fixed_x;
+y = fixed_y;
 
-// Verifica se o som de fundo já está tocando
-if (audio_is_playing(snd_som_de_fundo)) {
-    audio_stop_sound(snd_som_de_fundo); 
+// Reduz uma vida e verifica reinício
+global.vidas -= 1;
+
+if (global.vidas <= 0) {
+    game_restart(); // Reinicia o jogo se as vidas acabarem
+} else {
+    // Toca o som e destrói o objeto colidido
+    audio_play_sound(snd_sdn_dano, 1, false);
 }
-
-// Reinicia o som de fundo
-audio_play_sound(snd_som_de_fundo, 1, true); 
