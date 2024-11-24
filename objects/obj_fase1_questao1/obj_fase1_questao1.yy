@@ -8,8 +8,8 @@
   "name":"obj_fase1_questao1",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_fase1_questao1",
-    "path":"folders/Objetos/obj_questoes_quiz/obj_fase1_questao1.yy",
+    "name":"fase 01",
+    "path":"folders/Objetos/obj_questoes_quiz/fase 01.yy",
   },
   "parentObjectId":null,
   "persistent":false,

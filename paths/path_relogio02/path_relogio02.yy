@@ -5,8 +5,8 @@
   "kind":0,
   "name":"path_relogio02",
   "parent":{
-    "name":"Caminhos",
-    "path":"folders/Caminhos.yy",
+    "name":"fase 01",
+    "path":"folders/Caminhos/fase 01.yy",
   },
   "points":[
     {"speed":100.0,"x":362.8125,"y":414.6875,},

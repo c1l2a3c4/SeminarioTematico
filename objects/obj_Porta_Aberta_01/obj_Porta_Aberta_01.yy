@@ -10,8 +10,8 @@
   "name":"obj_Porta_Aberta_01",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"fase 01",
+    "path":"folders/Objetos/Background_Obj/fase 01.yy",
   },
   "parentObjectId":null,
   "persistent":false,

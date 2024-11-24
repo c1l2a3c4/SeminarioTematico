@@ -6,8 +6,8 @@
   "name":"obj_whats",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"fase 02",
+    "path":"folders/Objetos/Obstáculos/fase 02.yy",
   },
   "parentObjectId":null,
   "persistent":false,

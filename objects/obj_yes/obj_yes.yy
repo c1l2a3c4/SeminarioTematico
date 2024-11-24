@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_sim",
-    "path":"sprites/spr_sim/spr_sim.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

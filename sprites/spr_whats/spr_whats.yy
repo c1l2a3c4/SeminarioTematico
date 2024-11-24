@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"fase 02",
+    "path":"folders/Sprites/Obstáculos/fase 02.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
