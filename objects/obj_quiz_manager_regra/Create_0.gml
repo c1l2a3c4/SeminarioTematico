@@ -4,5 +4,5 @@ sprite_index = regras
 image_xscale = 1
 image_yscale = 1
 
-botao_proximo = instance_create_layer(x, y + 160, "Instances_3", obj_quiz_proxima_regra)
+instance_create_layer(x, y + 160, "Instances_3", obj_ir_para_quiz)
 

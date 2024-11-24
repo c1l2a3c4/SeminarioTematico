@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_next_button",
-    "path":"sprites/spr_next_button/spr_next_button.yy",
+    "name":"spr_insta",
+    "path":"sprites/spr_insta/spr_insta.yy",
   },
   "spriteMaskId":{
     "name":"spr_next_button",

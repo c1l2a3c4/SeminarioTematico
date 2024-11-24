@@ -14,6 +14,5 @@ TrocarSprite = function()
 
 Reiniciar = function()
 {
-	
 	sprite_index = imagem_escolha
 }

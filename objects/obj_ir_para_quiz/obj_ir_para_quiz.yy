@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quiz_proxima_regra",
+  "%Name":"obj_ir_para_quiz",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_quiz_proxima_regra",
+  "name":"obj_ir_para_quiz",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_quiz",
