@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oOptions",
+  "%Name":"obj_no",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oOptions",
+  "name":"obj_no",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_Menu_Inicial",
-    "path":"folders/Objetos/obj_Menu_Inicial.yy",
+    "name":"Configuração",
+    "path":"folders/Objetos/Configuração.yy",
   },
-  "parentObjectId":{
-    "name":"oMenuParent",
-    "path":"objects/oMenuParent/oMenuParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_no",
+    "path":"sprites/spr_no/spr_no.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

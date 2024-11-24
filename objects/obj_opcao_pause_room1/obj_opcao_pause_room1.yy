@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Object63",
+  "%Name":"obj_opcao_pause_room1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object63",
+  "name":"obj_opcao_pause_room1",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_quiz",
-    "path":"folders/Objetos/obj_quiz.yy",
+    "name":"Configuração",
+    "path":"folders/Objetos/Configuração.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oMenuParent",
+    "path":"objects/oMenuParent/oMenuParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_next_button",
-    "path":"sprites/spr_next_button/spr_next_button.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

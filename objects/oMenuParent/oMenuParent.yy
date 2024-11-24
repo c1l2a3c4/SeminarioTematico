@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_Menu_Inicial",
-    "path":"folders/Objetos/obj_questoes_quiz/obj_Menu_Inicial.yy",
+    "path":"folders/Objetos/obj_Menu_Inicial.yy",
   },
   "parentObjectId":null,
   "persistent":false,
