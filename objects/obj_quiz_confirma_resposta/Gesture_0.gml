@@ -8,7 +8,9 @@ else
 {
 	TrocarSprite()
 	audio_stop_all()
-	PlaySfx(snd_errado2_quiz);
+	PlaySfx(snd_errado2_quiz);	
+	
+	
 }
 
 gerenciador_quiz.ConfirmaRepostaExecutado()

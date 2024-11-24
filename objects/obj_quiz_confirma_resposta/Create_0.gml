@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 
 gerenciador_quiz = noone
+eh_correta = false;
 
 TrocarSprite = function()
 {
@@ -13,5 +14,6 @@ TrocarSprite = function()
 
 Reiniciar = function()
 {
+	
 	sprite_index = imagem_escolha
 }

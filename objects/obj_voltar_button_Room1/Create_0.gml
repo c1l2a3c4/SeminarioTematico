@@ -1,0 +1,1 @@
+gerenciador_quiz = noone

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_next_button",
+  "%Name":"Object63",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_next_button",
+  "name":"Object63",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_quiz",
@@ -33,9 +33,6 @@
     "name":"spr_next_button",
     "path":"sprites/spr_next_button/spr_next_button.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_next_button",
-    "path":"sprites/spr_next_button/spr_next_button.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
