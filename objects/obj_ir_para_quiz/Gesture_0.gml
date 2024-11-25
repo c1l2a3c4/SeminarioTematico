@@ -4,4 +4,4 @@ instance_destroy()
 instance_destroy(obj_quiz_manager_regra)
 
 
-instance_create_layer(room_width / 2, room_height / 2, "Instances_2", obj_quiz_manager);
+instance_create_layer(room_width / 2, room_height / 2, "Instances_3", obj_quiz_manager);
