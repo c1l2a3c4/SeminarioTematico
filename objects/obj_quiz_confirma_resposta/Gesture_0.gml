@@ -13,5 +13,5 @@ else
 	
 }
 
-gerenciador_quiz.ConfirmaRespostaExecutado()
+obj_quiz_manager.ConfirmaRespostaExecutado(eh_correta)
 

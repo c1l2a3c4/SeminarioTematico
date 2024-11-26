@@ -1,7 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-gerenciador_quiz = noone
 eh_correta = false;
 
 TrocarSprite = function()
