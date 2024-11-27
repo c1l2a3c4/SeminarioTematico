@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"fase 2",
-    "path":"folders/Sprites/Background/fase 2.yy",
+    "path":"folders/Sprites/Background_e_outros/fase 2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

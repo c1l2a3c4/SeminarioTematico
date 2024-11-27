@@ -1,1 +1,1 @@
-path_start(Path_insta, 2.5, path_action_continue, true);
+path_start(Path_insta, 3.5, path_action_continue, true);

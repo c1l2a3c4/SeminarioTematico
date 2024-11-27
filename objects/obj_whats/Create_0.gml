@@ -1,1 +1,1 @@
-path_start(Path_wpp, 2.5, path_action_continue, true);
+path_start(Path_wpp, 4, path_action_continue, true);
