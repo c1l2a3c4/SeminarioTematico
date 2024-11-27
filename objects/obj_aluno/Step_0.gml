@@ -75,13 +75,29 @@ if (y < _margem_superior) y = _margem_superior;
 if (y > _margem_inferior) y = _margem_inferior;
 
 // Verifica se o brinde é igual a 3 para passar de ambiente (fase)
-if (brinde == 3 && !instance_exists(obj_diploma_quiz)) {
+
+
+function criar_diploma() {
     var pos_x = room_width / 2;
     var pos_y = room_height / 2;
-    var diploma = instance_create_layer(pos_x, pos_y, "Instances", obj_diploma_quiz);
-    diploma.image_xscale = 0.3; // Reduz a largura pela metade
-    diploma.image_yscale = 0.3; // Reduz a altura pela metade
+    var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
+
+    if (instance_exists(diploma)) {
+        diploma.image_xscale = 0.3; // Ajusta a escala da largura
+        diploma.image_yscale = 0.3; // Ajusta a escala da altura
+    } else {
+        show_debug_message("Erro: diploma não foi criado.");
+    }
 }
+
+
+
+
+
+if (brinde == 3) {
+    criar_diploma()
+	
+}	
 
 if (global.estado_jogo != "jogando") {
     // Impedir movimentos (congelar posição)

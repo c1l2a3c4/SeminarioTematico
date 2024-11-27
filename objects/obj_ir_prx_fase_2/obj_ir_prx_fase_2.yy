@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_quiz_proximo",
+  "%Name":"obj_ir_prx_fase_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_quiz_proximo",
+  "name":"obj_ir_prx_fase_2",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_quiz",
@@ -30,12 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_confirma",
-    "path":"sprites/spr_confirma/spr_confirma.yy",
-  },
-  "spriteMaskId":{
     "name":"spr_next_button",
     "path":"sprites/spr_next_button/spr_next_button.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }

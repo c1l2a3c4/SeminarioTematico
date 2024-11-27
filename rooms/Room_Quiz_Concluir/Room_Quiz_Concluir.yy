@@ -1,24 +1,26 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Q2_room_Errada_A",
+  "%Name":"Room_Quiz_Concluir",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_74DDC832","path":"rooms/Q2_room_Errada_A/Q2_room_Errada_A.yy",},
+    {"name":"inst_5A312E9A","path":"rooms/Room_Quiz_Concluir/Room_Quiz_Concluir.yy",},
+    {"name":"inst_504F534C","path":"rooms/Room_Quiz_Concluir/Room_Quiz_Concluir.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_74DDC832","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74DDC832","objectId":{"name":"obj_voltar_button_Room1","path":"objects/obj_voltar_button_Room1/obj_voltar_button_Room1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5963508,"scaleY":1.5963507,"x":576.0,"y":928.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5A312E9A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A312E9A","objectId":{"name":"obj_quiz_missao_concluida","path":"objects/obj_quiz_missao_concluida/obj_quiz_missao_concluida.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0950694,"scaleY":2.0950694,"x":256.0,"y":32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_504F534C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_504F534C","objectId":{"name":"obj_ir_prx_fase_2","path":"objects/obj_ir_prx_fase_2/obj_ir_prx_fase_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.6694915,"scaleY":2.6694915,"x":640.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Q2_room_Errada_A",
+  "name":"Room_Quiz_Concluir",
   "parent":{
-    "name":"Questoes_Quiz_fase1_2Q",
-    "path":"folders/Cenas/Questoes_Quiz_fase1_2Q.yy",
+    "name":"Cenas",
+    "path":"folders/Cenas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -31,10 +33,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":1117,
+    "Height":768,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1280,
+    "Width":1366,
   },
   "sequenceId":null,
   "views":[
