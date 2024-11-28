@@ -10,6 +10,7 @@ menu[0] = "Sair do Jogo";
 
 menuActivated = false;
 
+
 menuFunction[4] = function(){
 	
 	SlideTransition(TRANS_MODE.GOTO, Room1);

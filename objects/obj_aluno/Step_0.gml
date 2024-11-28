@@ -78,8 +78,10 @@ if (y > _margem_inferior) y = _margem_inferior;
 
 
 function criar_diploma() {
-    var pos_x = room_width / 2;
-    var pos_y = room_height / 2;
+    var pos_x = room_width / 2; // Posição X no centro da sala
+    var pos_y = room_height / 2; // Posição Y no centro da sala
+
+    // Cria o diploma na camada especificada
     var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
 
     if (instance_exists(diploma)) {
@@ -91,12 +93,9 @@ function criar_diploma() {
 }
 
 
-
-
-
-if (brinde == 3) {
-    criar_diploma()
-	
+if (brinde == 3 && !diploma_criado) {
+    criar_diploma(); // Chama a função para criar o diploma
+    diploma_criado = true; // Marca que o diploma já foi criado
 }	
 
 if (global.estado_jogo != "jogando") {

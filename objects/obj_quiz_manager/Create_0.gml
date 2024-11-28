@@ -101,3 +101,5 @@ function exibir_game_over() {
     alarm[0] = room_speed * 2; // 2 segundos de atraso
 	
 }
+
+
