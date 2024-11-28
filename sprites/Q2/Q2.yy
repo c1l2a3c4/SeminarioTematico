@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Q2",
-    "path":"folders/Sprites/Questoes do quiz_Regra/1ª Fase/Q2.yy",
+    "name":"1ª Fase",
+    "path":"folders/Sprites/Questoes do quiz_Regra/1ª Fase.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

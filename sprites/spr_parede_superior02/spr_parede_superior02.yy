@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_parede_superior02",
-  "bboxMode":0,
-  "bbox_bottom":161,
+  "bboxMode":2,
+  "bbox_bottom":95,
   "bbox_left":0,
-  "bbox_right":1278,
+  "bbox_right":1276,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

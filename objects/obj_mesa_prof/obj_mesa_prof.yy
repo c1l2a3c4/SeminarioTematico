@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_mesa_prof",
     "path":"sprites/spr_mesa_prof/spr_mesa_prof.yy",

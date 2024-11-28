@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_parede_superior02",
     "path":"sprites/spr_parede_superior02/spr_parede_superior02.yy",

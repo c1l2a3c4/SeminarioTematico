@@ -19,6 +19,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_carteira_trabalho","path":"objects/obj_carteira_trabalho/obj_carteira_trabalho.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_relogio02","path":"objects/obj_relogio02/obj_relogio02.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_parede_superior_02","path":"objects/obj_parede_superior_02/obj_parede_superior_02.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_aluno",

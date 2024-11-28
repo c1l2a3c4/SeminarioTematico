@@ -17,7 +17,7 @@ brinde = 0;
 
 
 // Inicializar a lista de objetos sólidos
-objetos_solidos = [obj_cadeira, objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda, obj_borda_direita, obj_borda_esquerda];
+objetos_solidos = [obj_cadeira, objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda, obj_borda_direita, obj_borda_esquerda, obj_mesa_prof];
 
 // Função auxiliar para verificar colisão com qualquer objeto sólido na lista
 function colisao_solida(dx, dy) {

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Q1",
-    "path":"folders/Sprites/Questoes do quiz_Regra/1ª Fase/Q1.yy",
+    "name":"1ª Fase",
+    "path":"folders/Sprites/Questoes do quiz_Regra/1ª Fase.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
