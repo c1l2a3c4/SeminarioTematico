@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.0155,
+  "duration":2.586094,
   "name":"snd_winner_quiz",
   "parent":{
     "name":"Sons",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_winner_quiz.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.99,
 }

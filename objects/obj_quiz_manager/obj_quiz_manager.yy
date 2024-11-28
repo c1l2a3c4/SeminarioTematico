@@ -34,6 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"resposta_questao_2","filters":[],"listItems":[],"multiselect":false,"name":"resposta_questao_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"imagem_questao_3","filters":[],"listItems":[],"multiselect":false,"name":"imagem_questao_3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Q3","path":"sprites/Q3/Q3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Q3","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"resposta_questao_3","filters":[],"listItems":[],"multiselect":false,"name":"resposta_questao_3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sala_atual3","filters":[],"listItems":[],"multiselect":false,"name":"sala_atual3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

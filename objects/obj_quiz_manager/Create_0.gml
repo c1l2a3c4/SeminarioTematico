@@ -3,9 +3,13 @@
 #macro MAX_PERGUNTAS 3
 instance_destroy(obj_ir_para_quiz)
 
+global.sala_atual = 1; // Começa na sala 1
+
 perguntas_imagem = [imagem_questao_1, imagem_questao_2, imagem_questao_3]
 perguntas_respostas = [resposta_questao_1,resposta_questao_2,resposta_questao_3]
 perguntas_indice_atual = -1
+
+
 
 botao_proximo = instance_create_layer(x, y + 160, "Instances_3", obj_quiz_proximo)
 botao_proximo.depth = depth - 5;
@@ -26,7 +30,6 @@ for (i = 0; i < 4; i++)
 
 
 Iniciar = function(){
-	
 	perguntas_indice_atual = -1;
 	x = room_width / 2
 	y = room_height / 2
@@ -79,6 +82,7 @@ ProximaPergunta = function()
 	}
 	perguntas_indice_atual++;
 	
+	
 	sprite_index = perguntas_imagem[perguntas_indice_atual]
 
 	for (i = 0; i < 4; i++)
@@ -93,37 +97,40 @@ ProximaPergunta = function()
 }
 
 function exibir_game_over() {
-    // Criar o objeto "obj_game_over" no centro da tela
+	global.sala_atual += 1
     var game_over_x = room_width / 2;
     var game_over_y = room_height / 2;
     instance_create_layer(game_over_x, game_over_y, "Instances_2", obj_game_over);
 
     // Toca o som de game over
     audio_play_sound(snd_gameover, 1, false);
-
-    // Pausar o jogo
-    global.pausado = true;
-
-    // Configura o alarme para reiniciar o jogo após 2 segundos
-    alarm[0] = room_speed * 2; // 2 segundos de atraso
 	
+	// Pausar o jogo
+    global.pausado = true;
+	
+
+    // Configura o alarme para reiniciar na sala atual após 2 segundos
+    alarm[0] = room_speed * 2;
 }
 
 function missao_concluida() {
-    // Criar o objeto "obj_game_over" no centro da tela
+	global.sala_atual += 1
+
     var game_sucesso_x = room_width / 2;
     var game_sucesso_y = room_height / 2;
     instance_create_layer(game_sucesso_x, game_sucesso_y, "Instances_2", obj_quiz_missao_concluida);
 
     // Toca o som de sucesso
-	 PlaySfx(snd_winner_quiz)
-
+    PlaySfx(snd_winner_quiz);
+	
     // Pausar o jogo
     global.pausado = true;
-
-    // Configura o alarme para reiniciar o jogo após 2 segundos
-    alarm[1] = room_speed * 4; // 2 segundos de atraso
 	
+	show_debug_message("Sala Atual: " + string(global.sala_atual));
+
+    // Configura o alarme para mudar para a próxima sala após 2 segundos
+    alarm[1] = room_speed * 2;
 }
+
 
 

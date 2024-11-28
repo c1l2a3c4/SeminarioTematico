@@ -33,6 +33,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_parede_inf_direita","path":"objects/obj_parede_inf_direita/obj_parede_inf_direita.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_parede_inf_esquerda","path":"objects/obj_parede_inf_esquerda/obj_parede_inf_esquerda.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_estante_livros","path":"objects/obj_estante_livros/obj_estante_livros.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_aluno",

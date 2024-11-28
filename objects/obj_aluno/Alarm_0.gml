@@ -1,2 +1,2 @@
-/// @description Reiniciar o jogo após exibir "GAME OVER"
+/// @description OBJETOS QUE ESTÃO NA SALA 1
 game_restart();

@@ -35,6 +35,7 @@
     {"name":"inst_2DF2BF6C","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_674FFB1","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_203AEBA","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_72975F70","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -82,6 +83,7 @@
         {"$GMRInstance":"v1","%Name":"inst_468A37AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_468A37AD","objectId":{"name":"obj_mesa_prof","path":"objects/obj_mesa_prof/obj_mesa_prof.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":810.5,"y":166.5,},
         {"$GMRInstance":"v1","%Name":"inst_7CF5108A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CF5108A","objectId":{"name":"obj_joystick_filho","path":"objects/obj_joystick_filho/obj_joystick_filho.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.21874999,"scaleY":0.21874999,"x":1051.0,"y":472.0,},
         {"$GMRInstance":"v1","%Name":"inst_B4374","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B4374","objectId":{"name":"obj_joystick_pai","path":"objects/obj_joystick_pai/obj_joystick_pai.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.34326178,"scaleY":0.34326178,"x":1018.0,"y":441.74994,},
+        {"$GMRInstance":"v1","%Name":"inst_72975F70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72975F70","objectId":{"name":"obj_diploma_quiz","path":"objects/obj_diploma_quiz/obj_diploma_quiz.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.18333252,"scaleY":0.1833325,"x":687.0,"y":657.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_piso02","path":"sprites/spr_piso02/spr_piso02.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
