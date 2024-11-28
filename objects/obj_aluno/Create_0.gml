@@ -12,12 +12,12 @@ move_up = false;
 move_down = false;
 move_left = false;
 move_right = false;
-global.jogo_iniciado = false; // O jogo começa pausado
+global.jogo_iniciado = true; // O jogo começa pausado
 brinde = 0;
 
 
 // Inicializar a lista de objetos sólidos
-objetos_solidos = [objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda, obj_borda_direita, obj_borda_esquerda];
+objetos_solidos = [obj_cadeira, objMesa_Computador, obj_parede_superior,obj_parede_direita,obj_parede_esquerda, obj_borda_direita, obj_borda_esquerda];
 
 // Função auxiliar para verificar colisão com qualquer objeto sólido na lista
 function colisao_solida(dx, dy) {
