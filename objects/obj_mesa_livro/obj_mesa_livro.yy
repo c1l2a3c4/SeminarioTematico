@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_mesa_livro",
     "path":"sprites/spr_mesa_livro/spr_mesa_livro.yy",

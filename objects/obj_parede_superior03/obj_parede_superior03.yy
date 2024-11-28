@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_parade_superior03",
     "path":"sprites/spr_parade_superior03/spr_parade_superior03.yy",

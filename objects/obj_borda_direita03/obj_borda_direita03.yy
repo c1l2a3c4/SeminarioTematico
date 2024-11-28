@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_borda_direita03",
     "path":"sprites/spr_borda_direita03/spr_borda_direita03.yy",

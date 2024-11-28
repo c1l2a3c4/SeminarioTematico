@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_parede_divisoria",
     "path":"sprites/spr_parede_divisoria/spr_parede_divisoria.yy",

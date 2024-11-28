@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_parade_superior03",
-  "bboxMode":0,
-  "bbox_bottom":161,
+  "bboxMode":2,
+  "bbox_bottom":97,
   "bbox_left":0,
   "bbox_right":1279,
   "bbox_top":0,
