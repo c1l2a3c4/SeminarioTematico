@@ -31,11 +31,11 @@ Iniciar = function(){
 	x = room_width / 2
 	y = room_height / 2
 	botao_proximo.x = x
-	botao_proximo.y = y + 160;
+	botao_proximo.y = y + 130;
 	
 	for (i = 0; i < 4; i++)	{
 		
-		insts[i].x = x - 30;
+		insts[i].x = x + 60;
 		insts[i].y = y - 20 + ( i * 40)
 		
 	
@@ -65,9 +65,16 @@ ConfirmaRespostaExecutado = function(eh_correto)
 ProximaPergunta = function()
 {	
 
-	
+	//VERIFICA SE ACERTOU AS 3, INICIA O MISSAO CONCLUIDA E DEIXA INVISIVEL OS OBJETOS
 	if(perguntas_indice_atual + 1 >= MAX_PERGUNTAS){
-		room_goto(Room_Quiz_Concluir)
+		obj_quiz_manager.visible = false
+		missao_concluida()
+		with(obj_quiz_confirma_resposta){
+			visible = false
+		}
+		with(obj_quiz_proximo){
+			visible = false
+		}
 		return;
 	}
 	perguntas_indice_atual++;
@@ -99,6 +106,23 @@ function exibir_game_over() {
 
     // Configura o alarme para reiniciar o jogo após 2 segundos
     alarm[0] = room_speed * 2; // 2 segundos de atraso
+	
+}
+
+function missao_concluida() {
+    // Criar o objeto "obj_game_over" no centro da tela
+    var game_sucesso_x = room_width / 2;
+    var game_sucesso_y = room_height / 2;
+    instance_create_layer(game_sucesso_x, game_sucesso_y, "Instances_2", obj_quiz_missao_concluida);
+
+    // Toca o som de sucesso
+	 PlaySfx(snd_winner_quiz)
+
+    // Pausar o jogo
+    global.pausado = true;
+
+    // Configura o alarme para reiniciar o jogo após 2 segundos
+    alarm[1] = room_speed * 4; // 2 segundos de atraso
 	
 }
 

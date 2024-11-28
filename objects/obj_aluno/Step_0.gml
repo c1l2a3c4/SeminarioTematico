@@ -100,7 +100,7 @@ if (brinde == 3 && !diploma_criado) {
 
 if (global.estado_jogo != "jogando") {
     // Impedir movimentos (congelar posição)
-        with (obj_insta) {
+    with (obj_insta) {
         instance_destroy();
     }
     with (obj_netflix) {

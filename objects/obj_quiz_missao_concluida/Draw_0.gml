@@ -1,0 +1,1 @@
+draw_self(); // Desenha o sprite do "MISSAO CONCLUIDA" no centro da tela

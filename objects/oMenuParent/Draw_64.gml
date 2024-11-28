@@ -61,7 +61,7 @@ for (var i = 0; i < array_length(menu); i++)
 		
 }
 
-draw_set_color(c_white);
+draw_set_color(c_black);
 
 draw_set_halign(hal);
 draw_set_valign(val);
