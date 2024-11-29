@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Porta_Fechada",
-    "path":"sprites/Porta_Fechada/Porta_Fechada.yy",
+    "name":"Porta_Fechada_3",
+    "path":"sprites/Porta_Fechada_3/Porta_Fechada_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

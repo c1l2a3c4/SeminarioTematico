@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Porta_Fechada",
-    "path":"sprites/Porta_Fechada/Porta_Fechada.yy",
+    "name":"Sprite84",
+    "path":"sprites/Sprite84/Sprite84.yy",
   },
   "spriteMaskId":null,
   "visible":true,

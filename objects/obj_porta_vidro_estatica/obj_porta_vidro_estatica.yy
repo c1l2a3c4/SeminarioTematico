@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Porta_Fechada_3",
+  "%Name":"obj_porta_vidro_estatica",
   "eventList":[],
   "managed":true,
-  "name":"obj_Porta_Fechada_3",
+  "name":"obj_porta_vidro_estatica",
   "overriddenProperties":[],
   "parent":{
     "name":"fase03",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Porta_Fechada_3",
-    "path":"sprites/Porta_Fechada_3/Porta_Fechada_3.yy",
+    "name":"Sprite84",
+    "path":"sprites/Sprite84/Sprite84.yy",
   },
   "spriteMaskId":null,
   "visible":true,

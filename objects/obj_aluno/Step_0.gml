@@ -81,11 +81,16 @@ function criar_diploma() {
     var pos_x = room_width / 2; // Posição X no centro da sala
     var pos_y = room_height / 2; // Posição Y no centro da sala
 
-	if (global.sala == 1){
-    // Cria o diploma na camada especificada
-    var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
-	} else {
-	var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz_fase2);
+	if (global.sala_atual == 1){
+	    // Cria o diploma na camada especificada
+	    var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
+		show_debug_message("Sala Atual tentando instanciar o diploma 1: " + string(global.sala_atual));
+	} else if (global.sala_atual == 2) {
+		instance_destroy(obj_diploma_quiz)
+		var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz_fase2);
+	} else{
+		//aqui é para a 3 fase...
+		 var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
 	}
 
     if (instance_exists(diploma)) {
@@ -93,7 +98,7 @@ function criar_diploma() {
         diploma.image_yscale = 0.3; // Ajusta a escala da altura
     } else {
         show_debug_message("Erro: diploma não foi criado.");
-    }
+    }
 }
 
 

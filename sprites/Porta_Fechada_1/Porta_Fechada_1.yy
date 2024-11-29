@@ -44,8 +44,8 @@
   },
   "origin":8,
   "parent":{
-    "name":"fase 3",
-    "path":"folders/Sprites/Background_e_outros/fase 3.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

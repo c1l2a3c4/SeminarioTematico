@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_parede_inf_direta",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":85,
   "bbox_left":0,
   "bbox_right":534,
-  "bbox_top":0,
+  "bbox_top":25,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

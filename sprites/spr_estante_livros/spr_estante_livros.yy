@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_estante_livros",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":109,
   "bbox_left":0,
   "bbox_right":214,
-  "bbox_top":0,
+  "bbox_top":34,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

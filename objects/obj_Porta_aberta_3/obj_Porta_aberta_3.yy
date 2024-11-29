@@ -30,7 +30,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Porta_Fechada_3",
     "path":"sprites/Porta_Fechada_3/Porta_Fechada_3.yy",
