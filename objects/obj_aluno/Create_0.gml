@@ -3,6 +3,7 @@ global.vidas = 3; // Inicializa as vidas com 3 no início do jogo
 global.pausado = false;
 brinde = 0; // Inicializa a contagem de brindes
 diploma_criado = false; // Controla se o diploma já foi criado
+global.sala = 1
 
 
 

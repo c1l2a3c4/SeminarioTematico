@@ -13,5 +13,9 @@ else
 	
 }
 
-obj_quiz_manager.ConfirmaRespostaExecutado(eh_correta)
+if (global.sala_atual == 1){
+	obj_quiz_manager.ConfirmaRespostaExecutado(eh_correta)
+} else {
+	obj_quiz_manager_fase2.ConfirmaRespostaExecutado(eh_correta)
+}
 

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_diploma_quiz",
+  "%Name":"obj_diploma_quiz_fase2",
   "eventList":[],
   "managed":true,
-  "name":"obj_diploma_quiz",
+  "name":"obj_diploma_quiz_fase2",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_quiz",

@@ -81,8 +81,12 @@ function criar_diploma() {
     var pos_x = room_width / 2; // Posição X no centro da sala
     var pos_y = room_height / 2; // Posição Y no centro da sala
 
+	if (global.sala == 1){
     // Cria o diploma na camada especificada
     var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
+	} else {
+	var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz_fase2);
+	}
 
     if (instance_exists(diploma)) {
         diploma.image_xscale = 0.3; // Ajusta a escala da largura
