@@ -88,9 +88,9 @@ function criar_diploma() {
 	} else if (global.sala_atual == 2) {
 		instance_destroy(obj_diploma_quiz)
 		var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz_fase2);
-	} else{
+	} else if (global.sala_atual == 3){
 		//aqui é para a 3 fase...
-		 var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz);
+		 var diploma = instance_create_layer(pos_x, pos_y, "Instances_3", obj_diploma_quiz_fase3);
 	}
 
     if (instance_exists(diploma)) {

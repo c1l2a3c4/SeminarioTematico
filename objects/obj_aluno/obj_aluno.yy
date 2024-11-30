@@ -41,6 +41,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_netflix_fase3","path":"objects/obj_netflix_fase3/obj_netflix_fase3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_insta_fase3","path":"objects/obj_insta_fase3/obj_insta_fase3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_whats_fase3","path":"objects/obj_whats_fase3/obj_whats_fase3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_diploma_quiz_fase3","path":"objects/obj_diploma_quiz_fase3/obj_diploma_quiz_fase3.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_aluno",
