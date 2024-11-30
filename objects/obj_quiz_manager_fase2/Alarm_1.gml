@@ -1,6 +1,6 @@
 /// @description Gerenciador de salas 
     if (global.sala_atual == 2) {
-        room_goto(Room2);
+        room_restart()
     } else if (global.sala_atual == 3) {
         room_goto(Room3);
     } else {

@@ -45,7 +45,8 @@ menuFunction[2] = function() {
 
 menuFunction[1] = function() {
     // Lógica para "Créditos" (caso deseje adicionar)
-    // Exemplo: room_goto(rCredits);
+    room_goto(Creditos);
+
 };
 
 menuFunction[0] = function() {

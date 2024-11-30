@@ -22,7 +22,7 @@ if (global.vidas <= 0) {
     global.pausado = true;
 
     // Configura o alarme para reiniciar o jogo após 2 segundos
-    alarm[1] = room_speed * 2; // 2 segundos de atraso
+    room_restart()
 
 } else {
     // Toca o som de dano e destrói o objeto colidido

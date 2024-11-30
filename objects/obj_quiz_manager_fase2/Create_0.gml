@@ -38,7 +38,7 @@ Iniciar = function(){
 	
 	for (i = 0; i < 4; i++)	{
 		
-		insts[i].x = x + 60;
+		insts[i].x = x + 100;
 		insts[i].y = y - 20 + ( i * 40)
 		
 	

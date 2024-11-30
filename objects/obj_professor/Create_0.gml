@@ -1,0 +1,1 @@
+path_start(path_professor, 4, path_action_continue, true);
