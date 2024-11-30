@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_yes",
+  "%Name":"obj_opcao_pause_room2",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_yes",
+  "name":"obj_opcao_pause_room2",
   "overriddenProperties":[],
   "parent":{
     "name":"Configuração",
     "path":"folders/Objetos/Configuração.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oMenuParent",
+    "path":"objects/oMenuParent/oMenuParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_yes",
-    "path":"sprites/spr_yes/spr_yes.yy",
+    "name":"spr_img_menu",
+    "path":"sprites/spr_img_menu/spr_img_menu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

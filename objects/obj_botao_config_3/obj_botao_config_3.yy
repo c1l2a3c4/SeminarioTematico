@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_yes",
+  "%Name":"obj_botao_config_3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_yes",
+  "name":"obj_botao_config_3",
   "overriddenProperties":[],
   "parent":{
     "name":"Configuração",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_yes",
-    "path":"sprites/spr_yes/spr_yes.yy",
+    "name":"spr_botao_config",
+    "path":"sprites/spr_botao_config/spr_botao_config.yy",
   },
   "spriteMaskId":null,
   "visible":true,

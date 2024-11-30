@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_yes",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_confirmar_sair",
+  "eventList":[],
   "managed":true,
-  "name":"obj_yes",
+  "name":"obj_confirmar_sair",
   "overriddenProperties":[],
   "parent":{
     "name":"Configuração",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_yes",
-    "path":"sprites/spr_yes/spr_yes.yy",
+    "name":"spr_confirma_sair",
+    "path":"sprites/spr_confirma_sair/spr_confirma_sair.yy",
   },
   "spriteMaskId":null,
   "visible":true,

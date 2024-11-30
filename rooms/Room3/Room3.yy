@@ -46,8 +46,8 @@
     {"name":"inst_4FDC1BDB","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_71334CE6","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_FE2635E","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_18FECD2D","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_1058A133","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_6331B4B9","path":"rooms/Room3/Room3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -63,8 +63,8 @@
     {"$GMRPathLayer":"","%Name":"caminho_netflix","colour":4278190335,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"caminho_netflix","pathId":{"name":"path_netflix3","path":"paths/path_netflix3/path_netflix3.yy",},"properties":[],"resourceType":"GMRPathLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_3","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_FE2635E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FE2635E","objectId":{"name":"obj_diploma_quiz","path":"objects/obj_diploma_quiz/obj_diploma_quiz.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":768.0,},
-        {"$GMRInstance":"v1","%Name":"inst_18FECD2D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18FECD2D","objectId":{"name":"obj_botao_config","path":"objects/obj_botao_config/obj_botao_config.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3232044,"scaleY":0.3232044,"x":1184.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_1058A133","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1058A133","objectId":{"name":"obj_quiz_manager_fase3","path":"objects/obj_quiz_manager_fase3/obj_quiz_manager_fase3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":512.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6331B4B9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6331B4B9","objectId":{"name":"obj_botao_config_3","path":"objects/obj_botao_config_3/obj_botao_config_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.38259667,"scaleY":0.38259667,"x":1184.0,"y":32.0,},
       ],"layers":[],"name":"Instances_3","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_B85FA2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B85FA2B","objectId":{"name":"obj_parede_superior03","path":"objects/obj_parede_superior03/obj_parede_superior03.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-2.0,"y":0.0,},
@@ -139,7 +139,7 @@
     {"hborder":32,"hport":720,"hspeed":-1,"hview":720,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1280,"wview":1280,"xport":0,"xview":0,"yport":0,"yview":0,},
   ],
   "viewSettings":{
-    "clearDisplayBuffer":true,
+    "clearDisplayBuffer":false,
     "clearViewBackground":false,
     "enableViews":true,
     "inheritViewSettings":false,
